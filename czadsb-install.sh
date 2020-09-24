@@ -6,7 +6,7 @@ file="/boot/installed"
 file_version="1.0.1"
 
 while ! ping -c 1 -W 1 google.com; do
-  echo "Waiting for ping google.comn - network interface might be down..."
+  echo "Waiting for ping google.com - network interface might be down..."
   sleep 1
 done
 
@@ -35,7 +35,7 @@ then
   username="$(id -u -n)"
   cd ~
   echo "========== Copying the CZADSB scripts =========="
-  git clone https://github.com/pavelkonir/czadsb-scripts.git
+  git clone https://github.com/AaronPower/czadsb-scripts.git
   sudo chown $username:$username ~/czadsb-scripts
 
   sudo chmod +x ~/czadsb-scripts/*.sh
