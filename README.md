@@ -1,5 +1,5 @@
 # czadsb-scripts
 
 ```
-bash -c "$(wget -O - https://raw.githubusercontent.com/AaronPower/CZ.ADSB/master/czadsb-install.sh)"
+bash -c "$(wget -O - https://raw.githubusercontent.com/AaronPower/czadsb-scripts/master/czadsb-install.sh)"
 ```
